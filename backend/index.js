@@ -53,7 +53,7 @@ app.put("/makeChange" , async(req,res)=>{
     await CARD.updateOne({
         _id : getId
     } , {
-        Seen : true
+        Seen : "true"
     })
 
     res.json({

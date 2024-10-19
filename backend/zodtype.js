@@ -5,7 +5,7 @@ const check = zod.object({
     Description : zod.string(), 
     Social_media : zod.string(),
     Interest : zod.string(),
-    Seen : zod.boolean()
+    Seen : zod.string()
 })
 
 const checkId = zod.object({
